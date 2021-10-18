@@ -1,4 +1,4 @@
 # todolist
 Basic To Do List with HTML + CSS + JAVASCRIPT
 
-works only adding function now. so you can only add to do item now. I will add all functions (delete and completed functions)
+works adding and deleting functions. I will improve the other functions. 
