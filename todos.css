@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Sans+Libre:ital,wght@0,400;0,700;1,700&display=swap');
+
+*{
+    list-style-type: none;
+    font-family: 'Averia Sans Libre', cursive;
+}
+
+.container {
+    text-align: center;
+}
+
+body {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(22,209,94,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+#idnputz {
+    width: 230px;
+    height: 20px;
+    padding: 5px;  
+    border-radius: 4px; 
+}
+
+#btnX {
+    width: 50px;
+    height: 35px;
+    border-radius: 4px;
+}
+
+.icnputz, .title {
+    margin-left: 40px;
+}
+
+.item-colon {
+    width: 300px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(22,22,214,1) 35%, rgba(0,212,255,1) 100%);
+    color: white;
+    margin-bottom: 2px;
+    display: flex;
+    justify-content:space-between;
+    padding-left: 2px;
+    padding-right: 5px;
+}
+
+.myList {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.spane {
+   cursor: pointer;
+}
