@@ -4,8 +4,17 @@ const inputz = document.querySelector('.icnputz')
 
 btn.addEventListener("click", addNewItem);
 inputz.addEventListener("keyup", onEnterKey);
+myList.addEventListener('click', deleteItem);
 
-function onEnterKey(e) {
+function deleteItem(e) {
+    const clicked = e.target;
+
+    if(clicked.classList.contains('fa-trash-alt')){
+        clicked.parentElement.parentElement.remove();
+    }
+}
+
+function onEnterKey(e) {    
     if (e.keyCode === 13) {
         e.preventDefault();
         document.getElementById("btnX").click();
